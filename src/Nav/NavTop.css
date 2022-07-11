@@ -1,0 +1,19 @@
+.nav{
+    background-color: black;
+}
+.nav-item{
+    background-color: black;
+    margin: 1rem;
+    justify-content: center;
+}
+.navItem{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+.nav-item:hover{
+    text-decoration: underline, white, solid;
+    cursor: pointer;
+}

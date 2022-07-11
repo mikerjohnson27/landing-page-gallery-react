@@ -1,16 +1,17 @@
 import React from 'react';
-import Nav from './components/nav';
-import 'bootstrap/dist/css/bootstrap.css'
-import { createRoot } from 'react-dom/client';
-import Home from './components/homepage/home';
+import ReactDOM from 'react-dom/client';
+import NavTop from './Nav/NavTop';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Nav/NavTop.css'
 
 
-const rootEl = document.getElementById('root');
-const root = createRoot(rootEl);
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <>
-        <Nav />
-            <Home />
-    </>
-    );
+  <React.StrictMode>
+    <NavTop />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
