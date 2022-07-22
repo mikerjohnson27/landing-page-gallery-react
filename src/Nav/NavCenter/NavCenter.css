@@ -1,0 +1,12 @@
+.navTitle{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navItemdiv{
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
