@@ -12,6 +12,7 @@ import Product from './Home/product/product'
 //css files
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Home/Nav/NavTop/NavTop.css'
+import './Home/product/product.css'
 
 
 const container = document.getElementById('root');
