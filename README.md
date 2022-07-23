@@ -17,4 +17,6 @@
 </div>
 
 <h2>Links/References:</h2>
-<h4>Place Holder Images: <a href="https://dummyimage.com/"> https://dummyimage.com/ </a></h4>
+<h4>Repo Link: <a href="https://github.com/mikerjohnson27/landing-page-gallery-react">https://github.com/mikerjohnson27/landing-page-gallery-react</a></h4>
+<h4>Live Link(Not Live Yet): <a href="https://mikerjohnson.shop">https://mikerjohnson.shop</a></h4>
+<h4>Place Holder Images: <a href="https://dummyimage.com"> https://dummyimage.com </a></h4>
