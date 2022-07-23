@@ -2,24 +2,24 @@ import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
-function TooltipPositionedExample() {
+function TooltipButton() {
   return (
     <>
-      {['top', 'right', 'bottom', 'left'].map((placement) => (
+      {['Digital Only', 'Digital + USB Stick(Free)'].map((buttonaddtocart) => (
         <OverlayTrigger
-          key={placement}
-          placement={placement}
+          key={buttonaddtocart}
+          placement={buttonaddtocart}
           overlay={
-            <Tooltip id={`tooltip-${placement}`}>
-              Tooltip on <strong>{placement}</strong>.
+            <Tooltip id={`tooltip-${buttonaddtocart}`}>
+              $150 <strong>{buttonaddtocart}</strong>.
             </Tooltip>
           }
         >
-          <Button variant="secondary">Tooltip on {placement}</Button>
+          <Button className="button-margin" variant="secondary">{buttonaddtocart}</Button>
         </OverlayTrigger>
       ))}
     </>
   );
 }
 
-export default TooltipPositionedExample;
+export default TooltipButton;

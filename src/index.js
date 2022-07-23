@@ -13,7 +13,7 @@ import Product from './Home/product/product'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Home/Nav/NavTop/NavTop.css'
 import './Home/product/product.css'
-
+import './Home/product/tooltip/tooltip-buttons.css'
 
 const container = document.getElementById('root');
 const root = createRoot(container)
